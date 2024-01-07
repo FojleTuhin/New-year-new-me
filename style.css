@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-image: url(images/banner/banner1.png);
+    max-height: 800px;
+}
+
+
+
+.headertop {
+    padding-top: 210px;
+    text-align: right;
+    margin-right: 230px;
+
+}
+
+.headertop .header-title {
+    width: 525px;
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 780px;
+
+}
+
+.headertop .header-descreption {
+    width: 500px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 810px;
+    margin-top: 25px;
+
+}
+
+.btn {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    width: 160px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 190px;
+    margin-top: 35px;
+    margin-right: -20px;
+}
+
+
+/* header section end here. */
+/* main section start from here. */
+.failures-part {
+    display: flex;
+}
+
+.failures-image {
+
+    width: 527.929px;
+    height: 527.929px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(241, 91, 34, 0.20);
+    margin-top: 310px;
+    margin-left: 250px;
+
+
+}
+
+.failures-image img {
+    margin-top: -195px;
+    margin-left: -20px;
+
+
+
+}
+
+
+.failures-description {
+    max-width: 415px;
+    max-height: 400px;
+    margin-left: 150px;
+    margin-top: 350px;
+
+}
+
+.failures-description .failures-title {
+    width: 290px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failures-description .failures-info {
+    color: va #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.failures-description .failures-option {
+    margin-top: 15px;
+}
+
+.failures-description .failures-option i {
+    color: #16D887;
+}
+
+.Plan {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.my-plans {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.total-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plan-description {
+    text-align: center;
+}
+
+.plan-description .plan-pic,
+.plan-title,
+{
+margin-top: 20px;
+}
+
+.plan-description .plan-para {
+    margin-top: 10px;
+}
+
+.image {
+
+    margin-bottom: 200px;
+    margin-top: 100px;
+    border-radius: 8px;
+    background-size: cover;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
+}
+
+.image .img-text {
+    width: 460px;
+    padding: 65px 0 20px 65px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.image .call-now {
+    margin-left: 65px;
+    margin-bottom: 55px;
+    width: 160px;
+    height: 65px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+
+
+
+/* main section end here. */
+
+/* footer start from here. */
+
+footer {
+    margin-top: 130px;
+    background: #151414;
+    display: flex;
+
+}
+
+.future-info h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 70px 0 0 230px;
+}
+
+.future-info p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 70px 0px 0px 230px;
+    width: 485px;
+    margin-top: -40px;
+
+
+}
+
+.footer-img {
+    display: flex;
+    width: 175px;
+    height: 45px;
+    margin-top: 35px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+}
+
+
+.footer-img img {
+    margin-right: 20px;
+
+}
+
+
+.footer-subscribe {
+    margin-left: 300px;
+
+}
+
+.footer-subscribe p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 70px;
+
+}
+
+.footer-subscribe input {
+    width: 325px;
+    height: 65px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #151414;
+    padding: 0 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F3F3F3;
+    margin-top: 30px;
+}
+
+
+.footer-subscribe button {
+    margin-top: 20px;
+    width: 170px;
+    height: 65px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
